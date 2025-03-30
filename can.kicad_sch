@@ -1068,7 +1068,7 @@
 		)
 		(uuid "6b793361-4410-4502-9e57-f26b6b7d39e4")
 	)
-	(hierarchical_label "RX"
+	(hierarchical_label "TX"
 		(shape input)
 		(at 152.4 88.9 0)
 		(fields_autoplaced yes)
@@ -1078,9 +1078,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a077239e-2f96-4dc3-9f4e-9ad52ed09630")
+		(uuid "7c825a7b-7038-4b87-8b19-c025996d8051")
 	)
-	(hierarchical_label "TX"
+	(hierarchical_label "RX"
 		(shape input)
 		(at 152.4 86.36 0)
 		(fields_autoplaced yes)
@@ -1090,7 +1090,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bc0816f8-05b2-4957-ab0d-d20b403b0530")
+		(uuid "c39bf4bd-ef51-413e-9722-f37a1f879027")
 	)
 	(symbol
 		(lib_id "power:+5V")

@@ -5654,6 +5654,17 @@
 		)
 		(uuid "2898c3d0-67e3-4aba-8c4e-761330b18d5b")
 	)
+	(label "CAN_RX"
+		(at 146.05 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3072decc-d5a9-4cbd-8701-1846ab25d475")
+	)
 	(label "UART5_TX"
 		(at 196.85 128.27 180)
 		(fields_autoplaced yes)
@@ -5884,17 +5895,6 @@
 			(justify right bottom)
 		)
 		(uuid "7ffe6be0-d0d2-4f4c-ba1b-4d0fb1e688c1")
-	)
-	(label "CAN_RX"
-		(at 146.05 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "915b8e3d-b816-4c36-9811-268be2b084a4")
 	)
 	(label "MOTORCTL"
 		(at 196.85 135.89 180)
@@ -6160,17 +6160,6 @@
 		)
 		(uuid "dc84af4b-30f8-4724-8b40-5ebad4fb6130")
 	)
-	(label "CAN_TX"
-		(at 146.05 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd25b72f-5b7e-40ee-ab79-ad18936e3e7f")
-	)
 	(label "JTAG_MTDI"
 		(at 46.99 49.53 180)
 		(fields_autoplaced yes)
@@ -6236,6 +6225,17 @@
 			(justify right bottom)
 		)
 		(uuid "e36ed4b6-f4d6-485f-b972-137f57828831")
+	)
+	(label "CAN_TX"
+		(at 146.05 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e398c148-0dd8-4460-b972-8a378b761714")
 	)
 	(label "JTAG_MTMS"
 		(at 152.4 162.56 0)
