@@ -899,7 +899,7 @@
 		(at 93.98 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a17cc8e-1e46-4020-945c-f38136f39cf7")
+		(uuid "5db72d0e-4574-4910-a6ea-6623ca89cdbd")
 	)
 	(junction
 		(at 93.98 95.25)
@@ -919,16 +919,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 73.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba037e0-8eea-4ee8-b5fb-8f809734f25b")
-	)
-	(wire
-		(pts
 			(xy 93.98 87.63) (xy 93.98 88.9)
 		)
 		(stroke
@@ -939,6 +929,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 88.9) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c28917a-15a4-4499-b0ab-12177b0093d9")
+	)
+	(wire
+		(pts
 			(xy 139.7 88.9) (xy 143.51 88.9)
 		)
 		(stroke
@@ -946,16 +946,6 @@
 			(type default)
 		)
 		(uuid "256ec74b-b0e1-4328-a3d5-a0620bb5cf39")
-	)
-	(wire
-		(pts
-			(xy 73.66 86.36) (xy 73.66 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af14346-3a3d-4fc4-ad83-24c393e306ec")
 	)
 	(wire
 		(pts
@@ -999,17 +989,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 93.98 80.01)
+			(xy 87.63 88.9) (xy 81.28 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56d91025-f1d5-4734-a629-e4b21a171c13")
+		(uuid "55f41f0c-b7ab-44a5-b2c5-6e5b258fdb50")
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 93.98 78.74)
+			(xy 93.98 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad3ebdc-4856-4c42-8331-7f57f1df4195")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 87.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1029,13 +1029,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 93.98 95.25)
+			(xy 87.63 95.25) (xy 93.98 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b5657fc-8da2-47dc-9ea2-bd599855b362")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27f39a8-8dc7-4e3a-a79b-dc4e8fcbee19")
 	)
 	(wire
 		(pts
@@ -1049,13 +1059,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 114.3 78.74)
+			(xy 87.63 86.36) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8d1e99b-6674-491d-8711-783b43679ca7")
+		(uuid "c23f0f72-517e-41ce-9e1f-1377248e4053")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e6a919-56bd-4caa-b9de-34425562f607")
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
@@ -1617,7 +1637,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 78.74 86.36 0)
+		(at 76.2 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1626,25 +1646,23 @@
 		(fields_autoplaced yes)
 		(uuid "ea01cb32-3b75-4574-aca6-82ffa6fb6c96")
 		(property "Reference" "J1"
-			(at 81.28 86.995 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 81.28 89.535 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 78.74 86.36 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 86.36 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 86.36 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
