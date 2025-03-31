@@ -6942,7 +6942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C17557"
 			(at 204.47 102.87 0)
 			(effects
 				(font
@@ -8254,6 +8254,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 194.056 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 194.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
