@@ -1,7 +1,7 @@
 # CyberBoard - Raspberry PI 4
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://github.com/cybergear-robotics/cyberboard-raspberrypi/activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/cybergear-robotics/cyberboard-raspberrypi/activity)
 
 
 This is the Kicad project for the CyberBoard Raspberry PI HAT. It has an ESP32S3 which is
