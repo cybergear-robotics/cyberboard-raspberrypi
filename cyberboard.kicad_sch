@@ -6971,7 +6971,7 @@
 		(at 181.61 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "098f0249-5dc9-4e78-844b-3df1acb51b95")
@@ -8216,7 +8216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 194.31 158.75 0)
 			(effects
 				(font
@@ -8261,7 +8261,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2480"
+		(property "LCSC" "C191023"
 			(at 194.31 158.75 0)
 			(effects
 				(font
@@ -8897,7 +8897,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C17557"
 			(at 212.09 151.13 0)
 			(effects
 				(font
@@ -10662,7 +10662,7 @@
 		(at 227.33 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e33e0862-5967-4bf4-86c2-906497c4c96f")

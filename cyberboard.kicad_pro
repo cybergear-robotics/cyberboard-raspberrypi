@@ -58,13 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|108296060|119972792|6ffeb67c-bf93-4390-afdc-c686cf3b2295|53b037af-9bd6-4a0f-b6f3-ff40606e5285",
-        "copper_edge_clearance|108296060|70972780|d5f17db3-8626-4da5-b068-8a141f3add44|c8c115f3-6d07-4d62-8683-b453568aaeca",
-        "copper_edge_clearance|169294784|120034697|7ec29b0e-b7af-4958-b77a-6b4f96fc1b57|9f903a84-b050-4ff0-9101-c2487233b7dc",
-        "copper_edge_clearance|169295362|71006696|7952cfc7-173e-4b97-bc4a-3e667ff25cc2|b858bd53-233f-4ae8-bff3-b14a50860907",
-        "unconnected_items|114046000|107153750|1aadb708-14f3-44aa-8bd7-10c447a8cd15|189324c4-b11c-4f31-9d98-165432c6c540"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -139,7 +133,7 @@
         "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -491,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "jlcpcb/gerber/",
+      "plot": "releases/v1.1.0/gerber/",
       "pos_files": "jlcpcb/",
       "specctra_dsn": "",
       "step": "cyberboard.step",
@@ -502,7 +496,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "releases/v1.1.0/cyberboard.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -569,6 +563,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],

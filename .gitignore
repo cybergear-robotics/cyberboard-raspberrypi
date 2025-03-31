@@ -1,1 +1,6 @@
 cyberboard-backups/
+#auto_saved_files#
+fabrication-toolkit-options.json
+production/
+~cyberboard.kicad_pcb.lck
+~cyberboard.kicad_sch.lck
